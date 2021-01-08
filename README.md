@@ -4,35 +4,22 @@ Space Company is a science-fiction incremental game where you start from humble 
 Currently, the game is in Beta, which means there is frequent, active development on the game and most bugs from existing features will have been fixed. You should not have to worry about your saves being wiped. However, there will be the occasional bug and I will endeavour to amend these.
 
 # Plans for the Future
-- Check https://www.reddit.com/r/SpaceCompany/wiki/futureplans
-- When loading game, the tab you left on is the tab you now start on
-- Random Events
-- [Change UI from bootstrap to my own]
+- Add more stars
+- Add some mystery content!
 
-# Derived projects from members in the community
-- https://github.com/migue1s/SpaceCompanyNative Mobile Port by migue1s
-- https://github.com/SpiderGamin/SpaceCompany-Desktop Desktop Application by SpiderGamin
 
 # RoadMap
 
-v1.0 The Overlord Update
-https://www.reddit.com/r/SpaceCompany/wiki/futureplans#wiki_v0.6
-
-- Adding Lore onto every Building and an introduction to your Space Company
-- Rebalance all costs to not use as much Lunarite/Gems
-- Loading screen flavour text changes as you progress
-- Machine Overview Tab
-
-v0.5.1
-
-- (Mass to Energy Conversion)
-- Buy X buttons
-- Buy Max/Custom Buttons
-- Change Letter Formatting To Start At 100K
-- Rebalance Science
-- Change Icons (white circle with icon inside)
+v0.7 ???
+ - ???
 
 # Changelog:
+
+### v0.6
+##### Features
+ - Added some more stars
+ - Added tier 2 IRS
+ - Added new military ship
 
 ### v0.5.1 (includes all V0.5.0.X)
 ##### Features
