@@ -151,7 +151,26 @@ Game.commsData = (function(){
 			'meteorite': 15800000
 		}
 	};
-
+	
+	instance.DSO = {
+		entryName: 'DSO',
+		name: 'Distant Star Observer',
+		desc: 'The Overlord allows you to discover and explore distant stars with the DSO telescope. Each one increases your exploration range by 100 Light Years.',
+		category: 'comms',
+		unlocked: true,
+		displayNeedsUpdate: true,
+		cost: {
+			'metal': 100000000000,
+			'ice': 10000000000,
+			'meteorite': 1000000000
+		},
+		defaultCost: {
+			'metal': 100000000000,
+			'ice': 10000000000,
+			'meteorite': 1000000000
+		}
+	}; 
+	
 	return instance;
 
 }());
