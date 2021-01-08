@@ -111,6 +111,7 @@ Game.interstellarUI = (function(){
                 '<h3 class="default btn-link" id="{{htmlId}}_name">{{name}}</h3>',
                 '<h5>',
                     'Distance: {{distance}} (<span id="{{htmlId}}Cost">{{cost}}</span> Antimatter)<br>',
+                    'Stars in system: {{stars}}<br>',
                     'Planets: {{planets}}<br>',
                 '</h5>',
                 '<div class="btn btn-default" id="{{htmlId}}_explore" onclick="Game.interstellar.stars.exploreSystem(\'{{id}}\');">Explore</div>',
@@ -123,6 +124,7 @@ Game.interstellarUI = (function(){
                 '<h3 class="default btn-link" id="{{htmlId}}_name">{{name}}: <span id="{{htmlId}}_owned">Protected</span></h3>',
                 '<h5>',
                     'Distance: {{distance}}<br>',
+                    'Stars in system: {{stars}}<br>',
                     'Planets: {{planets}}<br>',
                     'Faction: {{faction}}<br>',
                     'Resources Present: {{resource1}}, {{resource2}}',
@@ -385,7 +387,7 @@ Game.interstellarUI = (function(){
         for(var id in this.starEntries){
             var data = Game.interstellar.stars.getStarData(id);
             if(data.owned){
-                systemsConquered += 1;
+                systemsConquered += data.stars;
             }
             if(data.explored == false){
                 if(Game.interstellar.comms.entries.IRS.count + Game.interstellar.comms.entries.DSO.count*100 + Game.interstellar.comms.entries.astroBreakthrough.count*5 >= data.distance){
