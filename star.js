@@ -12,7 +12,7 @@ Game.interstellar.stars = (function(){
         for (var id in Game.starData) {
             var data = Game.starData[id];
             
-            this.starCount++;
+            this.starCount = this.starCount + instance.stars;
             this.entries[id] = $.extend({}, data, {
                 id: id,
                 htmlId: 'star_' + id,
