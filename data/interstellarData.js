@@ -421,6 +421,32 @@ Game.militaryData = (function(){
 			'meteorite': 1700000000
 		}
 	};
+	
+	instance.mothership = {
+		entryName: 'mothership',
+		name: 'MotherShip',
+		desc: 'The MotherShip is a extremely powerful, high stats ship. Though it\'s massive, it can still move rather quickly.',
+		category: 'military',
+		unlocked: true,
+		displayNeedsUpdate: true,
+		stats: {
+			'power': 500,
+			'defense': 500,
+			'speed': 8
+		},
+		cost: {
+			'lunarite': 1e12,
+			'hydrogen': 5.7e11,
+			'ice': 8e11,
+			'meteorite': 4e11
+		},
+		defaultCost: {
+			'lunarite': 1e12,
+			'hydrogen': 5.7e11,
+			'ice': 8e11,
+			'meteorite': 4e11
+		}
+	};
 
 	return instance;
 
